@@ -1,0 +1,122 @@
+body{
+  background-image:url("http://cdn.wccftech.com/wp-content/uploads/2015/05/Batman-Arkham-Knight-2.jpg");
+background-attachment:fixed;
+background-position:center;
+background-repaeat:no-repeat;
+}
+.container{
+  width:100%;
+}
+.board{
+  opacity:0.7;
+  top:80px;
+  position:relative;
+  width:500px;
+  height:500px;
+  
+  margin:auto;
+  
+}
+.hidden{
+  display:none;
+}
+.pannel{
+    opacity:0.7;
+  top:100px;
+  text-align:center;
+  position:relative;
+  width:30%;
+  height:300px;
+  border:13px solid #333;
+  margin:auto;
+  z-index:1;
+  background-color:#999999;
+}
+.block{
+  position:relative;
+ display:inline-block;
+ width:32.3%;
+ height:32.3%;
+  background-color:#737373;
+  z-index:0;
+ user-event:auto;
+ cursor:pointer;
+}
+.icon{
+  position:relative;
+  width:100%;
+  max-width:100px;
+  margin:auto;
+}
+.icon-mover{
+   position:relative;
+  width:100%;
+  margin:auto;
+}
+h{
+  position:relative;
+  display:inline-block;
+  width:100%;
+  font-family: 'Alfa Slab One', cursive;
+  font-size:2em;
+}
+h1{
+  position:relative;
+  display:inline-block;
+  width:100%;
+  padding-top:2%;
+  margin-bottom:5%;
+  font-family: 'Alfa Slab One', cursive;
+  font-size:1.5em;
+}
+.role{
+  position:relative;
+  display:inline-block;
+  width:30%;
+  text-decoration:none;
+  border:none;
+  background-color:#999999;
+}
+
+.player{
+  pointer-events:none;
+}
+.computer{
+  pointer-events:none;
+}
+.result{
+  opacity:0.7;
+  top:100px;
+  text-align:center;
+  position:relative;
+  width:30%;
+  height:300px;
+  border:13px solid #333;
+  margin:auto;
+  z-index:1;
+  background-color:#999999;
+}
+.whoWins{
+  padding-top:10%;
+  padding-bottom:12%;
+  position:relative;
+  display:inline-block;
+  width:100%;
+  font-family: 'Alfa Slab One', cursive;
+  font-size:2.7em;
+}
+.restart{
+  font-size:2em;
+  position:relative;
+  display:inline-block;
+  width:40%;
+  text-decoration:none;
+  border:none;
+  background-color:#999999;
+}
+footer{
+  font-family: 'Alfa Slab One', cursive;
+  text-align:center;
+  margin-top:120px;
+  color:#666699;
+}

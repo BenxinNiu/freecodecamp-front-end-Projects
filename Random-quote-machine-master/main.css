@@ -1,0 +1,78 @@
+.container{
+text-align:center;}
+.flexbox{
+  display:flex;
+  display:-webkit-flex;
+  align-items:center;
+    justify-content:center;
+  -webkit-align-items:center;
+  -webkit-justify-contetn:center;
+}
+.quote-area{
+  margin:15% auto auto auto;
+  display:table;
+  position:relative;
+  border:none;
+  border-radius:5px 5px 5px 5px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.7);
+  padding:30px;
+  width:500px;
+  background-color:#fff;
+  
+}
+.quote{
+ clear:both;
+ text-align:left;
+ font-size:2em;
+ font-weight:bold; 
+ width:500px;
+ height:auto;
+  padding-bottom:15px;
+}
+.author{
+  font-size:1.5em;
+  height:auto;
+  clear:both;
+  float:right;
+  padding-bottom:30px;
+}
+.tool-bar{
+width:500px;
+float:left;
+}
+.tool-bar .Get-quote{
+  float:right;
+}
+.forward {
+  font-size:1.5em;
+  padding:9px;
+  border:none;
+  border-radius:6px;
+  background-color:white;
+  margin-right:13px;
+  cursor:pointer;
+  color:#fff;
+  transition: all .7s ease-in-out;
+}
+.forward:hover{color: #722872;
+  background: #fff;
+  
+}
+.Get-quote{
+  font-size:1.4em;
+  padding:5px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  color:#fff;
+  transition: all .7s ease-in-out;
+}
+.Get-quote:hover{color: #722872;
+  background: #fff;
+  }
+
+footer{
+   padding-top:100px;
+    font-size:1.3em;
+  font-weight:bold; 
+}

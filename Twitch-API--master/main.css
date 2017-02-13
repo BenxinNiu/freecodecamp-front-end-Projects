@@ -1,0 +1,193 @@
+body{
+  background-image:url("http://cdn.wccftech.com/wp-content/uploads/2015/05/Batman-Arkham-Knight-2.jpg");
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+  background-size:cover;
+ 
+}
+
+h{
+color:#4d4d4d;
+font-size:2em;
+margin-top:8%;
+}
+
+.container{
+  display:flex;
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  align-items:center;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  -webkit-flex-flow:column-wrap;
+  flex-flow:column-wrap;
+  width:100%;
+  font-family:roboto;
+  height:100%;
+}
+
+.navBar{
+  margin:0px;
+  display:inline-block;
+  white-space:nowrap;
+  width:100%;
+  height:auto;
+  text-align:center;
+  margin-top:3%;
+}
+
+.btn{
+  background-color:lightgrey;
+  opacity:0.7;
+  width:15%;
+  border:none;
+  margin:0;
+  height:40px;
+}
+
+.online{
+  border-radius:7px 0px 0px 7px;
+}
+
+.all{
+  border-radius:0px 7px 7px 0px;
+}
+
+.search{
+  display:inline-block;
+  width:100%;
+  white-space:nowrap;
+  text-align:center;
+  margin-top:20px;
+  
+}
+
+#searchBar{
+  background-color:#595959;
+  opacity:0.5;
+  width:35%;
+  height:30px;
+  border:none;
+  margin-bottom:40px;
+}
+
+.submit{
+  background-color:#595959;
+  opacity:0.9;
+  width:6%;
+  min-width:65px;
+  border:none;
+  margin:0;
+  height:30px;
+ 
+}
+.streamer{
+  display:block;
+  text-align:center;
+  width:44%;
+  min-width: 250px;
+  height:300px;
+   overflow:hidden;
+  overflow-y:auto;
+}
+.statusOnline{
+  opacity:0.7;
+  display:block; 
+  display:-webkit-flex; 
+  -webkit-justify-content:flex-start;
+  justify-content:flex-start;
+  -webkit-align-items:center;
+  align-items:center;
+  margin-top:5px;
+  width:100%;
+  min-width:200px;
+  height:auto; 
+  background-color:#809fff;
+  border:none;
+  border-radius:7px;
+}
+
+.statusOffline{
+  opacity:0.7;
+  display:flex; 
+  display:-webkit-flex; 
+  -webkit-justify-content:flex-start;
+  justify-content:flex-start;
+  -webkit-align-items:center;
+  align-items:center;
+  margin-top:5px;
+  width:100%;
+  min-width:200px;
+  height:auto; 
+  background-color:#ccffcc;
+  border:none;
+  border-radius:7px;
+}
+
+.statusOffline:hover{
+  border:solid lightblue;
+  border-width:0px 0px 0px 8px;
+}
+
+.statusError{
+  font-size:1.5em;
+  text-align:center;
+  opacity:0.7;
+  display:block; 
+  margin-top:5px;
+  width:100%;
+  min-width:200px;
+  height:30px; 
+  background-color:#ff0080;
+  border:none;
+  border-radius:7px;
+}
+
+#logo{
+ width:100%;
+ max-width:40px;
+}
+
+
+.link{
+  display:block;
+  text-align:center;
+  width:25%;
+  text-decoration:none;
+}
+
+.addedLink{
+  display:block;
+  text-align:center;
+  width:25%;
+  text-decoration:none;
+  color:red;
+}
+
+.game{
+  display:block;
+  text-align:right;
+  width:60%;
+}
+
+.footer{
+  color:white;
+}
+
+@media (max-width:1300px){
+  .btn{
+  width:26%;
+  border:none;
+  margin:0;
+}
+  .streamer{
+  width:80%;
+}
+  #searchBar{
+    width:68%;
+  }
+}
+
