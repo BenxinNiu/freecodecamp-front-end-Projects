@@ -1,0 +1,133 @@
+body{
+  background-color:white;
+}
+
+.hidden{
+  display:none;
+}
+
+.flexContainer{
+  display:flex;
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  align-items:center;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  -webkit-flex-flow:column-wrap;
+  flex-flow:column-wrap;
+  width:100%;
+  font-family:roboto;
+  height:auto;
+}
+
+.header{ 
+  text-align:center;
+  padding-top:200px;
+  font-size:2.7em;
+}
+
+#search{
+  text-align:center;
+  display:inline-block;
+  width:100%;
+  height:auto;
+  padding-top:23px;
+  padding-bottom:10px;
+}
+
+
+.searchAfter{
+  background-color: #e6e6e6;
+  height:auto;
+  border: none;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.7);
+} 
+.searchAfter:before{
+  content:"WIKI SEARCH ENGINE";
+  float:left;
+  font-size:2em;
+  padding-left:10%;
+  
+}
+  
+#bar{
+  text-align:center;
+  height:40px;
+  width:100%;
+  max-width:700px;
+  margin-bottom:10px;
+  border: 1px solid black;
+  border-radius:3px;
+}
+
+.btn{
+  text-align:center;
+  width:150px;
+  height:40px;
+  background-color:#fff;
+  border:1px solid black;
+  border-radius: 7px 7px 7px 7px;
+  margin-right:30px;
+}
+
+#randomWiki{
+ text-decoration:none;
+ color:inherit;
+}
+
+.resultArea{
+  padding-left:10%;
+  margin-top:20px;
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  width:100%;
+  height:auto;
+  -webkit-justify-content:flex-start;  
+  justify-content:flex-start;  
+  -webkit-align-items:flex-start;
+  align-items:flex-start;
+}
+
+.result{
+  display:inline-block;
+  width:80%;
+  height:auto; 
+}
+
+.result:hover{
+  border:solid lightblue;
+  border-width:0px 0px 0px 6px;
+}
+
+.title{
+  display:block;
+  margin: 20px auto 20px 0px;
+  width:auto;
+  height:auto;
+  font-size:2em;
+}
+
+.snippet{
+  display:block;
+  margin: 20px auto 0px 0px;
+  width:90%;
+  height:auto;
+  font-size:1.6em;
+  
+}
+.infor {
+  display:block;
+  margin-bottom:45px;
+  width:90%;
+  height:auto;
+  font-size:1.3em;
+}
+
+.footer{
+  font-size:1em;
+  padding-top:20px;
+}

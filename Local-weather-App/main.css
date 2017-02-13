@@ -1,0 +1,86 @@
+body{
+  padding-top:50px;
+  background-color:#ff1a75;
+  color:white;
+  background-image: url("http://all4desktop.com/data_images/original/4244250-night.jpg");
+}
+.flex-container{ 
+  display:flex;
+  -webkit-display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  flex-flow:column-wrap;
+  width:100%;
+  max-width:1000px;
+  font-family:roboto;
+  height:auto;
+}
+.header{
+  text-align:center;
+  min-width:30%;
+  font-size:4em;
+}
+#icon1{
+  padding-top:20px;
+}
+.temp{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  width:100%;
+  flex-wrap:wrap;
+  max-width:500px;
+  text-align:center;
+  min-width:200px;
+  color:lightblue;
+  font-size:1.8em;
+  padding-top:20px;
+   padding-bottom:20px;
+   
+}
+hidden{
+  display:none;
+}
+#condition{
+  width:100px;
+  text-align:center;
+}
+.location{
+  border:none;
+  border-radius:4px;
+  padding:30px;
+  background-color:#4292f4;
+  min-width:200px;
+  font-size:1.8em;
+  text-align:center;
+  opacity:0.3;
+}
+.location:hover{
+  transform:scale(1.1);
+  
+}
+.btn{
+  margin-right:5px;
+  padding:10px;
+  text-align:center;
+  background-color:#4265f4;
+}
+.btn:hover{
+  background-color:;
+}
+
+#byCity{
+  padding:7px;
+  text-align:center;
+  opacity:0.5;
+  font-size:20px;
+  border-radius:4px;
+  background-color:#ff1a75;
+}
+.footer{
+  padding-top:50px;
+  text-align:center;
+  
+  
+}
